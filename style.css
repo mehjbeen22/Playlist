@@ -1,0 +1,138 @@
+/* CSS RESET  */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body{
+    font-family: 'Hurricane', cursive;  
+}
+
+
+.flex{
+    display: flex;
+}
+/* --------------------------------------------------------------------------- */
+
+.container{
+    /* border: 2px solid black; */
+    background-image: url(./image/bgc.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* ---------------------------------Play Head Editing  ------------------------------------------------------- */
+.head{
+    color: #fff;
+    /* border: 2px solid pink; */
+    font-weight: bold;
+    height: 6rem;
+    width: 40%;
+    margin: 2px auto;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 6px 5px 2px #94a3b8;
+    letter-spacing: 6px;
+}
+
+.play-head{
+    /* border: 2px solid white; */
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.play-head img{
+    height: 9rem;
+    border-radius: 123px;
+    margin-right: 12px;
+    border:2px solid  #fff;
+    box-shadow: 10px -20px 50px #fed7aa;
+    
+}
+
+
+.heading{
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+/* _______________________________BOX EDITING______________________________________________ */
+.play1{
+    border: 2px solid red;
+}
+
+.play-holder{
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+    margin-block: 2rem;
+}
+
+.play-card{
+    background-color: #fff;
+    border-radius: 3rem;
+    height: 25rem;
+    width: 50%;
+    margin-right: 20px;
+    box-shadow: -10px -10px 25px #facc15;
+    transition: all 0.03s ease-in-out;
+    flex-wrap: wrap;
+  }
+
+.play-card:hover{
+    transform: scale(1.04, 1.04);   
+    
+}
+
+
+.song-img{
+    margin-left: 4rem;
+    margin-block: 1rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 7rem;
+    border:2px solid black;
+    box-shadow: 20px 20px 50px black;
+}
+
+.content p{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.play-btn{
+    border-radius: 6px;
+    width: 40%;
+    align-items: center;
+    margin: 20px auto;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.03s ease-in-out;  
+}
+
+.play-btn:hover{
+    transform: skew(-0.02turn, 5deg);
+
+}
+
+
+.play-btn p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.play-image{
+    height: 25px;
+    margin-inline: 10px;
+    background-color: #fff;
+    border-radius: 19px;
+   
+}
